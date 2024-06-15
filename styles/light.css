@@ -29,5 +29,6 @@
   .header__rec {
     display: none;
     color: var(--color-rec);
+    
   }
 }
