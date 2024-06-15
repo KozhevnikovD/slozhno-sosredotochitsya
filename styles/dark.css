@@ -23,4 +23,9 @@
     --header-title-color: #db00ff;
     --color-rec: #ff0070;
   }
+
+  .page {
+    background-image: var(--background-image);
+    background-color: var(--background-color);
+  }
 }

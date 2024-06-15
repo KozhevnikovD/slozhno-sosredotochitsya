@@ -107,6 +107,10 @@
   margin-right: 20px;
 }
 
+.header-subtitle-text {
+  text-align: left;
+}
+
 .main-content {
   margin-top: 60px;
   display: grid;
@@ -278,6 +282,10 @@
     justify-content: end;
     margin-right: clamp(1rem, 0.4036rem + 2.5445vw, 1.625rem);
     margin-top: clamp(4.6875rem, -2.2901rem + 29.771vw, 12rem);
+  }
+
+  .header-subtitle-text {
+    text-align: left;
   }
 
   .decorated-zone::before {
