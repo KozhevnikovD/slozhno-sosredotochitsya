@@ -7,6 +7,7 @@
   line-height: 24px;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .header {
   display: grid;
@@ -297,7 +298,6 @@
 
   .header-subtitle {
     width: clamp(22.1875rem, 21.6508rem + 2.2901vw, 22.75rem);
-    margin-inline: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   }
 
   .main-content-title {
@@ -330,6 +330,10 @@
 
   .header-title {
     margin-left: 10px;
+  }
+
+  .header-subtitle {
+    margin-right: 10px;
   }
 
   .main-content {
