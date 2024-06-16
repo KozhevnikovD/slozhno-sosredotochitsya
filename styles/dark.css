@@ -9,5 +9,5 @@
   --color-rec: #ff0070;
   --font-base: "IBM Plex Mono", sans-serif;
   --font-size-base: 18px;
-  --background-image: url("../images/cover-image-dark.png");
+  --background-image: url(../images/cover-image-dark.png);
 }
