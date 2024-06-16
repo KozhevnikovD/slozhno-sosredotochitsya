@@ -7,27 +7,23 @@
   --text-color: #353430;
   --background-color: #fff1f7;
   --color-rec: #fff1f7;
+  --font-base: "IBM Plex Mono", sans-serif;
+  --font-size-base: 18px;
   --background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #ff8dcb;
-    --menu-color: #353430;
-    --text-shadow-color: #ff0070;
-    --subtitle-color: #353430;
-    --text-color: #353430;
-    --background-color: #fff1f7;
-    --color-rec: #fff1f7;
-    --header-title-color: #ffc2e6;
-  }
-  .page {
-    background-image: var(--background-image);
-    background-color: var(--background-color);
-  }
-
-  .header__rec {
-    display: none;
-    color: var(--color-rec);
+  --accent-color: #ff8dcb;
+  --menu-color: #353430;
+  --header-title-color: #ffc2e6;
+  --text-shadow-color: #ff0070;
+  --subtitle-color: #353430;
+  --text-color: #353430;
+  --background-color: #fff1f7;
+  --color-rec: #fff1f7;
+  --font-base: "IBM Plex Mono", sans-serif;
+  --font-size-base: 18px;
+  --background-image: url(../images/cover-image-light.png);
   }
 }
