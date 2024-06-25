@@ -7,6 +7,7 @@
   --text-color: #353430;
   --background-color: #fff1f7;
   --color-rec: #fff1f7;
+  --border-color: rgba(50, 49, 45, 0.4);
   --font-base: "IBM Plex Mono", sans-serif;
   --font-size-base: 18px;
   --background-image: url(../images/cover-image-light.png);
@@ -22,6 +23,7 @@
     --text-color: #353430;
     --background-color: #fff1f7;
     --color-rec: #fff1f7;
+    --border-color: rgba(50, 49, 45, 0.4);
     --font-base: "IBM Plex Mono", sans-serif;
     --font-size-base: 18px;
     --background-image: url(../images/cover-image-light.png);

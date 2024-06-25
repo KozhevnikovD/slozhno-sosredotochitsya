@@ -7,6 +7,7 @@
   --text-shadow-color: #ff0070;
   --header-title-color: #db00ff;
   --color-rec: #ff0070;
+  --border-color: rgba(255, 0, 112, 0.4);
   --font-base: "IBM Plex Mono", sans-serif;
   --font-size-base: 18px;
   --background-image: url(../images/cover-image-dark.png);
