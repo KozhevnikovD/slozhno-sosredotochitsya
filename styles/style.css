@@ -433,7 +433,7 @@
   border-bottom: 1px solid var(--text-color);
 }
 
-.link_decoration:focus {
+.link_decoration:focus-visible {
   border: 1px solid var(--text-color);
 }
 
