@@ -114,13 +114,6 @@
   text-align: left;
 }
 
-.main-content {
-  display: grid;
-  grid-template-columns: 1fr 1.93fr;
-  margin-inline: 20px;
-  margin-top: 60px;
-}
-
 .main-content-why-block {
   display: grid;
 
