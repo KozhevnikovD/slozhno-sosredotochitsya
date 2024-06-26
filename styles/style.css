@@ -152,6 +152,13 @@
   margin-block-end: 20px;
 }
 
+.main-content-what {
+  display: grid;
+  grid-template-rows: 0.2fr 6fr;
+  margin-top: 60px;
+  margin-inline: 20px;
+}
+
 .main-content-what-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
