@@ -115,19 +115,21 @@
 }
 
 .main-content-why-block {
-  display: grid;
-  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   font-family: var(--font-base);
   font-size: var(--font-size-base);
   line-height: 23.4px;
 }
 
-.main-text-content {
-  padding-bottom: 10px;
+.main-content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .main-content-subtitle {
-  margin-bottom: 10px;
   font-weight: 700;
   font-size: var(--font-size-base);
   color: var(--subtitle-color);
@@ -135,7 +137,6 @@
 }
 
 .main-content-subtitle-lighter {
-  margin-bottom: 10px;
   font-weight: 400;
   font-size: var(--font-size-base);
   color: var(--subtitle-color);
@@ -156,14 +157,14 @@
 .main-content-what {
   display: grid;
   grid-template-rows: 0.2fr 6fr;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-inline: 20px;
 }
 
 .main-content-what-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
+  gap: 20px;
   font-family: var(--font-base);
   font-size: var(--font-size-base);
   line-height: 23.4px;
@@ -184,7 +185,7 @@
   display: grid;
   grid-template-columns: 1fr 1.93fr;
   margin-inline: 20px;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .main-content-how-block {
@@ -192,7 +193,7 @@
   font-family: var(--font-base);
   font-size: var(--font-size-base);
   line-height: 23.4px;
-  gap: 10px;
+  gap: 20px;
 }
 
 .main-content-subtitle-advice {
@@ -200,12 +201,11 @@
   font-size: var(--font-size-base);
   color: var(--subtitle-color);
   background-color: var(--accent-color);
-  margin-bottom: 10px;
 }
 
 .main-image {
   margin-inline: 20px;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .main-image-list {
@@ -339,7 +339,7 @@
   .main-content-what-block {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 
   .main-content-how {
@@ -391,7 +391,7 @@
 
   .main-content-what {
     margin-inline: 10px;
-    margin-top: 38px;
+    margin-top: 48px;
     min-width: 95%;
   }
 
@@ -406,11 +406,11 @@
     display: block;
     min-width: 95%;
     margin-inline: 10px;
-    margin-top: 38px;
+    margin-top: 48px;
   }
 
   .main-image {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-inline: 10px;
   }
 
